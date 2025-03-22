@@ -1,0 +1,21 @@
+# Binaries
+**/bin/
+bin-int/
+!vendor/premake/bin
+Intermediates/
+
+# HEngine files
+*.log
+
+# Visual Studio files and folder
+.vs/
+**/*.sln
+**/*.vcxproj
+**/*.vcxproj.filters
+**/*.vcxproj.user
+**/*.csproj
+
+# Directories
+HEngine-Editor/assets/cache
+HEngine/vendor
+scripts/__pycache__

@@ -1,0 +1,33 @@
+[submodule "HEngine/vendor/GLFW"]
+	path = HEngine/vendor/GLFW
+	url = https://github.com/glfw/glfw
+	branch = master
+
+[submodule "HEngine/vendor/glm"]
+	path = HEngine/vendor/glm
+	url = https://github.com/g-truc/glm
+	branch = master
+
+[submodule "HEngine/vendor/msdf-atlas-gen"]
+	path = HEngine/vendor/msdf-atlas-gen
+	url = https://github.com/donghuiw/msdf-atlas-gen.git
+
+[submodule "HEngine/vendor/spdlog"]
+	path = HEngine/vendor/spdlog
+	url = https://github.com/donghuiw/spdlog.git
+
+[submodule "HEngine/vendor/yaml-cpp"]
+	path = HEngine/vendor/yaml-cpp
+	url = https://github.com/jbeder/yaml-cpp.git
+
+[submodule "HEngine/vendor/imgui"]
+	path = HEngine/vendor/imgui
+	url = https://github.com/donghuiw/imgui.git
+
+[submodule "HEngine/vendor/ImGuizmo"]
+	path = HEngine/vendor/ImGuizmo
+	url = https://github.com/donghuiw/ImGuizmo.git
+
+[submodule "HEngine/vendor/box2d"]
+	path = HEngine/vendor/box2d
+	url = https://github.com/donghuiw/box2d.git
