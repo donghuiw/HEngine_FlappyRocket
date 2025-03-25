@@ -1,3 +1,13 @@
 Scene: Untitled
 Entities:
-  []
+  - Entity: 2929901288463089681
+    TagComponent:
+      Tag: Rocket
+    TransformComponent:
+      Translation: [0, 0, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    SpriteRendererComponent:
+      Color: [1, 1, 1, 1]
+      TexturePath: D:\Projects\Git\My_Repository\HEngine_FlappyRocket\HEngine-Editor\FlappyRocket\Assets\Textures\PinkRocket.png
+      TilingFactor: 1

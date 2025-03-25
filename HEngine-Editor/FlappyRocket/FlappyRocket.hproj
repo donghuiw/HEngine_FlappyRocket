@@ -1,0 +1,5 @@
+Project:
+  Name: FlappyRocket
+  StartScene: "Scenes/FlappyRocket.hengine"
+  AssetDirectory: "Assets"
+  ScriptModulePath: "Scripts/Binaries/FlappyRocket.dll"

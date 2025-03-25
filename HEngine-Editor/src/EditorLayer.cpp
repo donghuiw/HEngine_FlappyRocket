@@ -17,7 +17,7 @@ namespace HEngine
 	static Ref<Font> s_Font;
 
 	EditorLayer::EditorLayer()
-		:Layer("EditorLayer"), m_CameraController(1280.0f / 720.0f), m_SquareColor({ 0.2f, 0.3f, 0.8f, 1.0f })
+		:Layer("EditorLayer"), m_CameraController(1280.0f / 720.0f)
 	{
 		s_Font = Font::GetDefault();
 	}
@@ -26,7 +26,6 @@ namespace HEngine
 	{
 		HE_PROFILE_FUNCTION();
 
-		m_CheckerboardTexture = Texture2D::Create("assets/textures/Checkerboard.png");
 		m_IconPlay = Texture2D::Create("Resources/Icons/PlayButton.png");
 		m_IconPause = Texture2D::Create("Resources/Icons/PauseButton.png");
 		m_IconStep = Texture2D::Create("Resources/Icons/StepButton.png");
@@ -82,8 +81,6 @@ namespace HEngine
 			m_Framebuffer->Resize((uint32_t)m_ViewportSize.x, (uint32_t)m_ViewportSize.y);
 			m_CameraController.OnResize(m_ViewportSize.x, m_ViewportSize.y);
 			m_EditorCamera.SetViewportSize(m_ViewportSize.x, m_ViewportSize.y);
-
-		
 		}
 
 		// Render
@@ -342,6 +339,7 @@ namespace HEngine
 
 		ImGui::End();
 	}
+
 	void EditorLayer::UI_Toolbar()
 	{
 		ImGui::BeginMenuBar();	//开启菜单栏区域，用于绘制菜单或控件。

@@ -2,6 +2,7 @@
 #include "HEngine/Core/EntryPoint.h"
 
 #include "EditorLayer.h"
+#include "GameLayer.h"
 
 namespace HEngine
 {
@@ -11,7 +12,8 @@ namespace HEngine
 		HEngineEditor(const ApplicationSpecification& spec)
 			: Application(spec)
 		{
-			PushLayer(new EditorLayer());
+			PushLayer(new GameLayer());
+			//PushLayer(new EditorLayer());
 		}
 	};
 	Application* CreateApplication(ApplicationCommandLineArgs args)

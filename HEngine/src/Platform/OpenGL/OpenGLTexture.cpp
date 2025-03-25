@@ -60,6 +60,7 @@ namespace HEngine
 		{
 			HE_PROFILE_SCOPE("stbi_load - OpenGLTexture2D::OpenGLTexture2D(const std::string&)");
 			data = stbi_load(path.c_str(), &width, &height, &channels, 0);
+			HE_CORE_ASSERT(data, "The Texture resource failed to load !");
 		}
 
 		if (data)
